@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  instagram_tg_downloader:
+    build: .
+    container_name: instagram-tg-downloader
+    restart: unless-stopped
